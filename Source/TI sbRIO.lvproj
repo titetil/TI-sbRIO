@@ -279,7 +279,7 @@
 	</Item>
 	<Item Name="RT Single-Board RIO" Type="RT Single-Board RIO">
 		<Property Name="alias.name" Type="Str">RT Single-Board RIO</Property>
-		<Property Name="alias.value" Type="Str">10.30.189.165</Property>
+		<Property Name="alias.value" Type="Str">10.30.189.130</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,758B;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">758B</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
@@ -4110,6 +4110,7 @@ DirectoryIndex index.htm
 		<Item Name="PS Control (RT).vi" Type="VI" URL="../SubVIs/PS Control (RT).vi"/>
 		<Item Name="FPGA_Reference.ctl" Type="VI" URL="../Controls/FPGA_Reference.ctl"/>
 		<Item Name="flow meter test.vi" Type="VI" URL="../SubVIs/flow meter test.vi"/>
+		<Item Name="can test.vi" Type="VI" URL="../SubVIs/can test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="DIO SPI FPGA.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/DIO SPI FPGA.lvlib"/>
@@ -4172,6 +4173,7 @@ DirectoryIndex index.htm
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="CANRead.vi" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANRead.vi"/>
 			</Item>
 			<Item Name="Actual Starts.ctl" Type="VI" URL="../Type Defs/Actual Starts.ctl"/>
 			<Item Name="AI RT FIFO.vi" Type="VI" URL="../SubVIs/AI RT FIFO.vi"/>
@@ -4254,20 +4256,7 @@ DirectoryIndex index.htm
 			<Item Name="Calculate Restarts.vi" Type="VI" URL="../SubVIs/Calculate Restarts.vi"/>
 			<Item Name="Get Watlow Data.vi" Type="VI" URL="../SubVIs/Get Watlow Data.vi"/>
 			<Item Name="Flow Meter Test.lvbitx" Type="Document" URL="../FPGA/bitfiles/Flow Meter Test.lvbitx"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
-			<Item Name="niLvFpga_Run_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Run_sbRIO-9626.vi"/>
-			<Item Name="niLvFpga_Reset_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Reset_sbRIO-9626.vi"/>
-			<Item Name="niLvFpga_Close_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Close_sbRIO-9626.vi"/>
-			<Item Name="niLvFpga_Abort_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Abort_sbRIO-9626.vi"/>
-			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
-			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
-			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
-			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
-			<Item Name="niLvFpga_Open_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Open_sbRIO-9626.vi"/>
+			<Item Name="Hella CAN.vi" Type="VI" URL="../SubVIs/Hella CAN.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PS Control (OLD)" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
