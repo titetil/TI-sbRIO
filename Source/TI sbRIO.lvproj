@@ -4111,6 +4111,7 @@ DirectoryIndex index.htm
 		<Item Name="FPGA_Reference.ctl" Type="VI" URL="../Controls/FPGA_Reference.ctl"/>
 		<Item Name="flow meter test.vi" Type="VI" URL="../SubVIs/flow meter test.vi"/>
 		<Item Name="can test.vi" Type="VI" URL="../SubVIs/can test.vi"/>
+		<Item Name="Controller Config.ctl" Type="VI" URL="../Controls/Controller Config.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="DIO SPI FPGA.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/DIO SPI FPGA.lvlib"/>
@@ -4230,7 +4231,7 @@ DirectoryIndex index.htm
 			<Item Name="Tank CMDs.ctl" Type="VI" URL="../Controls/Tank CMDs.ctl"/>
 			<Item Name="HMI Tog Buttons.ctl" Type="VI" URL="../Controls/HMI Tog Buttons.ctl"/>
 			<Item Name="HMI Cluster.ctl" Type="VI" URL="../Controls/HMI Cluster.ctl"/>
-			<Item Name="Controller Config.ctl" Type="VI" URL="../Controls/Controller Config.ctl"/>
+			<Item Name="HMI Controller Config.ctl" Type="VI" URL="../Controls/HMI Controller Config.ctl"/>
 			<Item Name="Data to CSV.vi" Type="VI" URL="../SubVIs/Data to CSV.vi"/>
 			<Item Name="Amps Display.vi" Type="VI" URL="../SubVIs/Amps Display.vi"/>
 			<Item Name="Evaluate Alarms.vi" Type="VI" URL="../SubVIs/Evaluate Alarms.vi"/>
@@ -4257,6 +4258,20 @@ DirectoryIndex index.htm
 			<Item Name="Get Watlow Data.vi" Type="VI" URL="../SubVIs/Get Watlow Data.vi"/>
 			<Item Name="Flow Meter Test.lvbitx" Type="Document" URL="../FPGA/bitfiles/Flow Meter Test.lvbitx"/>
 			<Item Name="Hella CAN.vi" Type="VI" URL="../SubVIs/Hella CAN.vi"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
+			<Item Name="niLvFpga_Run_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Run_sbRIO-9626.vi"/>
+			<Item Name="niLvFpga_Reset_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Reset_sbRIO-9626.vi"/>
+			<Item Name="niLvFpga_Close_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Close_sbRIO-9626.vi"/>
+			<Item Name="niLvFpga_Abort_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Abort_sbRIO-9626.vi"/>
+			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
+			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
+			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
+			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
+			<Item Name="niLvFpga_Open_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Open_sbRIO-9626.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PS Control (OLD)" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
