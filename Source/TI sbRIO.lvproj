@@ -113,6 +113,7 @@
 			<Item Name="gmail_script.py" Type="Document" URL="../Email Handler/gmail_script.py"/>
 			<Item Name="Python Email.vi" Type="VI" URL="../Email Handler/Python Email.vi"/>
 		</Item>
+		<Item Name="cal debug.vi" Type="VI" URL="../../../../../Desktop/cal debug.vi"/>
 		<Item Name="Format Fast Data Files.vi" Type="VI" URL="../Format Fast Data Files.vi"/>
 		<Item Name="handle minute ave.vi" Type="VI" URL="../PC SubVIs/handle minute ave.vi"/>
 		<Item Name="Messy Save Time Sandbox (PC).vi" Type="VI" URL="../Messy Save Time Sandbox (PC).vi"/>
@@ -149,6 +150,7 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -178,6 +180,7 @@
 			<Item Name="Alarm Config.ctl" Type="VI" URL="../Controls/Alarm Config.ctl"/>
 			<Item Name="Alarm Definition.ctl" Type="VI" URL="../Controls/Alarm Definition.ctl"/>
 			<Item Name="Alarm Profile Config.ctl" Type="VI" URL="../Controls/Alarm Profile Config.ctl"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Alarm Email Handler" Type="EXE">
@@ -4175,6 +4178,7 @@ DirectoryIndex index.htm
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="CANRead.vi" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANRead.vi"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="Actual Starts.ctl" Type="VI" URL="../Type Defs/Actual Starts.ctl"/>
 			<Item Name="AI RT FIFO.vi" Type="VI" URL="../SubVIs/AI RT FIFO.vi"/>
