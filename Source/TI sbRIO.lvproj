@@ -4115,9 +4115,12 @@ DirectoryIndex index.htm
 		<Item Name="flow meter test.vi" Type="VI" URL="../SubVIs/flow meter test.vi"/>
 		<Item Name="can test.vi" Type="VI" URL="../SubVIs/can test.vi"/>
 		<Item Name="Controller Config.ctl" Type="VI" URL="../Controls/Controller Config.ctl"/>
+		<Item Name="Get Time and Date.vi" Type="VI" URL="../SubVIs/Get Time and Date.vi"/>
+		<Item Name="Email Mode.ctl" Type="VI" URL="../Controls/Email Mode.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="DIO SPI FPGA.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/DIO SPI FPGA.lvlib"/>
+				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -4178,7 +4181,6 @@ DirectoryIndex index.htm
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="CANRead.vi" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANRead.vi"/>
-				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="Actual Starts.ctl" Type="VI" URL="../Type Defs/Actual Starts.ctl"/>
 			<Item Name="AI RT FIFO.vi" Type="VI" URL="../SubVIs/AI RT FIFO.vi"/>
@@ -4188,7 +4190,7 @@ DirectoryIndex index.htm
 			<Item Name="Check CMD Starts.vi" Type="VI" URL="../SubVIs/Check CMD Starts.vi"/>
 			<Item Name="Conti CAN.vi" Type="VI" URL="../SubVIs/Conti CAN.vi"/>
 			<Item Name="Elapsed Time Global.vi" Type="VI" URL="../SubVIs/Elapsed Time Global.vi"/>
-			<Item Name="Get CT Offsets.vi" Type="VI" URL="../SubVIs/Get CT Offsets.vi"/>
+			<Item Name="Get Pressure Offsets.vi" Type="VI" URL="../SubVIs/Get Pressure Offsets.vi"/>
 			<Item Name="Get Elapsed Times.vi" Type="VI" URL="../SubVIs/Get Elapsed Times.vi"/>
 			<Item Name="Get Restarts Data.vi" Type="VI" URL="../SubVIs/Get Restarts Data.vi"/>
 			<Item Name="Loop (Data Stream).vi" Type="VI" URL="../SubVIs/Loop (Data Stream).vi"/>
@@ -4276,6 +4278,10 @@ DirectoryIndex index.htm
 			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
 			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
 			<Item Name="niLvFpga_Open_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Open_sbRIO-9626.vi"/>
+			<Item Name="niLvFpga_ReadFifo_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_ReadFifo_sbRIO-9626.vi"/>
+			<Item Name="niLvFpga_ConfigureFifo_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_ConfigureFifo_sbRIO-9626.vi"/>
+			<Item Name="niLvFpgaMergeErrorWithErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaMergeErrorWithErrorCode.vi"/>
+			<Item Name="niLvFpga_ReadFifo_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_ReadFifo_Dynamic.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PS Control (OLD)" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
