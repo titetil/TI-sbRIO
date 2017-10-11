@@ -282,7 +282,7 @@
 	</Item>
 	<Item Name="RT Single-Board RIO" Type="RT Single-Board RIO">
 		<Property Name="alias.name" Type="Str">RT Single-Board RIO</Property>
-		<Property Name="alias.value" Type="Str">10.30.189.113</Property>
+		<Property Name="alias.value" Type="Str">10.30.189.154</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,758B;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">758B</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
@@ -4487,6 +4487,8 @@ DirectoryIndex index.htm
 			<Item Name="E2E_EB_CalculateCrc (Hella).vi" Type="VI" URL="../SubVIs/E2E_EB_CalculateCrc (Hella).vi"/>
 			<Item Name="SCrc_CalculateCRC8H2F (Hella).vi" Type="VI" URL="../SubVIs/SCrc_CalculateCRC8H2F (Hella).vi"/>
 			<Item Name="TI sbRIO PWM (FPGA) v1.0.lvbitx" Type="Document" URL="../FPGA/bitfiles/TI sbRIO PWM (FPGA) v1.0.lvbitx"/>
+			<Item Name="Log Data.vi" Type="VI" URL="../SubVIs/Data Logger/Log Data.vi"/>
+			<Item Name="Write to File.vi" Type="VI" URL="../SubVIs/Data Logger/Write to File.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
@@ -4501,9 +4503,10 @@ DirectoryIndex index.htm
 			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
 			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
 			<Item Name="niLvFpga_Open_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Open_sbRIO-9626.vi"/>
+			<Item Name="Check if Time to Log.vi" Type="VI" URL="../SubVIs/Data Logger/Check if Time to Log.vi"/>
+			<Item Name="Concat Data.vi" Type="VI" URL="../SubVIs/Data Logger/Concat Data.vi"/>
+			<Item Name="Push Sync Files to WebDAV.vi" Type="VI" URL="../SubVIs/Data Logger/Push Sync Files to WebDAV.vi"/>
 			<Item Name="RPi WebDAV.vi" Type="VI" URL="../SubVIs/Data Logger/RPi WebDAV.vi"/>
-			<Item Name="Log Data.vi" Type="VI" URL="../SubVIs/Data Logger/Log Data.vi"/>
-			<Item Name="Write to File.vi" Type="VI" URL="../SubVIs/Data Logger/Write to File.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PS Control (OLD)" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
