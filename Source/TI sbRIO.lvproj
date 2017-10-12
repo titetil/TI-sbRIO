@@ -4128,10 +4128,13 @@ DirectoryIndex index.htm
 		<Item Name="Data Logger Mode.ctl" Type="VI" URL="../SubVIs/Data Logger/Data Logger Mode.ctl"/>
 		<Item Name="Write Headers.vi" Type="VI" URL="../SubVIs/Data Logger/Write Headers.vi"/>
 		<Item Name="Test Commands.ctl" Type="VI" URL="../Controls/Test Commands.ctl"/>
+		<Item Name="Data Log Init.ctl" Type="VI" URL="../SubVIs/Data Logger/Data Log Init.ctl"/>
+		<Item Name="Data Log Start.ctl" Type="VI" URL="../SubVIs/Data Logger/Data Log Start.ctl"/>
+		<Item Name="Data Loop.vi" Type="VI" URL="../SubVIs/Data Loop.vi"/>
+		<Item Name="Write PWM Outputs.vi" Type="VI" URL="../SubVIs/Write PWM Outputs.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
-				<Item Name="DIO SPI FPGA.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/DIO SPI FPGA.lvlib"/>
 				<Item Name="Sort 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (I32)__ogtk.vi"/>
 				<Item Name="Sort 2D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U64)__ogtk.vi"/>
 				<Item Name="Sort 2D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (I64)__ogtk.vi"/>
@@ -4327,9 +4330,9 @@ DirectoryIndex index.htm
 				<Item Name="Filter 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (U8)__ogtk.vi"/>
 				<Item Name="Filter 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (String)__ogtk.vi"/>
 				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
+				<Item Name="DIO SPI FPGA.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/DIO SPI FPGA.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="CANCloseInterface.vi" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANCloseInterface.vi"/>
 				<Item Name="CANCreateInterface.vi" Type="VI" URL="/&lt;vilib&gt;/RioEmbeddedCAN/RioEmbeddedCAN.llb/CANCreateInterface.vi"/>
@@ -4362,7 +4365,6 @@ DirectoryIndex index.htm
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
@@ -4402,33 +4404,24 @@ DirectoryIndex index.htm
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 			</Item>
-			<Item Name="Actual Starts.ctl" Type="VI" URL="../Type Defs/Actual Starts.ctl"/>
 			<Item Name="AI RT FIFO.vi" Type="VI" URL="../SubVIs/AI RT FIFO.vi"/>
 			<Item Name="App Config.ctl" Type="VI" URL="../Type Defs/App Config.ctl"/>
 			<Item Name="CAN Communication.vi" Type="VI" URL="../SubVIs/CAN Communication.vi"/>
 			<Item Name="CAN Mode.ctl" Type="VI" URL="../Type Defs/CAN Mode.ctl"/>
-			<Item Name="Check CMD Starts.vi" Type="VI" URL="../SubVIs/Check CMD Starts.vi"/>
 			<Item Name="Conti CAN.vi" Type="VI" URL="../SubVIs/Conti CAN.vi"/>
-			<Item Name="Elapsed Time Global.vi" Type="VI" URL="../SubVIs/Elapsed Time Global.vi"/>
-			<Item Name="Get Pressure Offsets.vi" Type="VI" URL="../SubVIs/Get Pressure Offsets.vi"/>
-			<Item Name="Get Elapsed Times.vi" Type="VI" URL="../SubVIs/Get Elapsed Times.vi"/>
-			<Item Name="Get Restarts Data.vi" Type="VI" URL="../SubVIs/Get Restarts Data.vi"/>
 			<Item Name="Loop (Data Stream).vi" Type="VI" URL="../SubVIs/Loop (Data Stream).vi"/>
 			<Item Name="Loop (DMA).vi" Type="VI" URL="../SubVIs/Loop (DMA).vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Read Write App Config.vi" Type="VI" URL="../SubVIs/Read Write App Config.vi"/>
-			<Item Name="Restarts Cluster.ctl" Type="VI" URL="../Type Defs/Restarts Cluster.ctl"/>
-			<Item Name="Restarts Limits.ctl" Type="VI" URL="../Type Defs/Restarts Limits.ctl"/>
 			<Item Name="rioembeddedcanlvapi.dll" Type="Document" URL="rioembeddedcanlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="RT FIFO Mode.ctl" Type="VI" URL="../Real-Time/Controls/RT FIFO Mode.ctl"/>
-			<Item Name="Run Step.vi" Type="VI" URL="../SubVIs/Run Step.vi"/>
-			<Item Name="Save Profile.vi" Type="VI" URL="../SubVIs/Save Profile.vi"/>
 			<Item Name="Seconds to Time String.vi" Type="VI" URL="../SubVIs/Seconds to Time String.vi"/>
 			<Item Name="Sequence States.ctl" Type="VI" URL="../Type Defs/Sequence States.ctl"/>
 			<Item Name="TCP Data Stream (RT).vi" Type="VI" URL="../SubVIs/TCP Data Stream (RT).vi"/>
@@ -4436,21 +4429,13 @@ DirectoryIndex index.htm
 			<Item Name="TCP Data Stream Mode.ctl" Type="VI" URL="../Real-Time/Controls/TCP Data Stream Mode.ctl"/>
 			<Item Name="TCP Data Stream.vi" Type="VI" URL="../SubVIs/TCP Data Stream.vi"/>
 			<Item Name="PS Control (FPGA).lvbitx" Type="Document" URL="../FPGA/bitfiles/PS Control (FPGA).lvbitx"/>
-			<Item Name="Init ADCs.vi" Type="VI" URL="../SubVIs/Init ADCs.vi"/>
-			<Item Name="Init FPGA.vi" Type="VI" URL="../SubVIs/Init FPGA.vi"/>
 			<Item Name="HMI Header.ctl" Type="VI" URL="../Controls/HMI Header.ctl"/>
 			<Item Name="Pump Data Mode.ctl" Type="VI" URL="../Type Defs/Pump Data Mode.ctl"/>
 			<Item Name="Tank Data Global.vi" Type="VI" URL="../Web Services/Tank Data Global.vi"/>
-			<Item Name="Timestamp2DayofYear.vi" Type="VI" URL="../SubVIs/Timestamp2DayofYear.vi"/>
-			<Item Name="Get Cal Coefficients.vi" Type="VI" URL="../SubVIs/Get Cal Coefficients.vi"/>
-			<Item Name="TenHzDataArray(Global).vi" Type="VI" URL="../SubVIs/TenHzDataArray(Global).vi"/>
-			<Item Name="Record Samples (global).vi" Type="VI" URL="../SubVIs/Record Samples (global).vi"/>
-			<Item Name="Record Period (global).vi" Type="VI" URL="../SubVIs/Record Period (global).vi"/>
 			<Item Name="HMI Mom Buttons.ctl" Type="VI" URL="../Controls/HMI Mom Buttons.ctl"/>
 			<Item Name="Alarm Definition.ctl" Type="VI" URL="../Controls/Alarm Definition.ctl"/>
 			<Item Name="Alarm Profile Config.ctl" Type="VI" URL="../Controls/Alarm Profile Config.ctl"/>
 			<Item Name="Alarm Config.ctl" Type="VI" URL="../Controls/Alarm Config.ctl"/>
-			<Item Name="Signal Breakout.vi" Type="VI" URL="../SubVIs/Signal Breakout.vi"/>
 			<Item Name="Pump Data.ctl" Type="VI" URL="../Controls/Pump Data.ctl"/>
 			<Item Name="RPi HMI Com.vi" Type="VI" URL="../SubVIs/RPi HMI Com.vi"/>
 			<Item Name="RPi HMI Mode.ctl" Type="VI" URL="../Controls/RPi HMI Mode.ctl"/>
@@ -4460,9 +4445,7 @@ DirectoryIndex index.htm
 			<Item Name="HMI Controller Config.ctl" Type="VI" URL="../Controls/HMI Controller Config.ctl"/>
 			<Item Name="Data to CSV.vi" Type="VI" URL="../SubVIs/Data to CSV.vi"/>
 			<Item Name="Amps Display.vi" Type="VI" URL="../SubVIs/Amps Display.vi"/>
-			<Item Name="Evaluate Alarms.vi" Type="VI" URL="../SubVIs/Evaluate Alarms.vi"/>
 			<Item Name="Email to Handler.vi" Type="VI" URL="../SubVIs/Email to Handler.vi"/>
-			<Item Name="Restart Alarm Message.vi" Type="VI" URL="../SubVIs/Restart Alarm Message.vi"/>
 			<Item Name="MB Serial Init.vi" Type="VI" URL="../SubVIs/Watlow Modbus/NI Modbus.llb/MB Serial Init.vi"/>
 			<Item Name="MB Decode Data.vi" Type="VI" URL="../SubVIs/Watlow Modbus/NI Modbus.llb/MB Decode Data.vi"/>
 			<Item Name="MB Modbus Command to Data Unit.vi" Type="VI" URL="../SubVIs/Watlow Modbus/NI Modbus.llb/MB Modbus Command to Data Unit.vi"/>
@@ -4479,8 +4462,6 @@ DirectoryIndex index.htm
 			<Item Name="Modbus Variable.ctl" Type="VI" URL="../SubVIs/Watlow Modbus/Modbus Variable.ctl"/>
 			<Item Name="Tank Temp Variables.ctl" Type="VI" URL="../Controls/Tank Temp Variables.ctl"/>
 			<Item Name="Watlow Modbus.vi" Type="VI" URL="../SubVIs/Watlow Modbus/Watlow Modbus.vi"/>
-			<Item Name="Cog Detector.vi" Type="VI" URL="../SubVIs/Cog Detector.vi"/>
-			<Item Name="Calculate Restarts.vi" Type="VI" URL="../SubVIs/Calculate Restarts.vi"/>
 			<Item Name="Get Watlow Data.vi" Type="VI" URL="../SubVIs/Get Watlow Data.vi"/>
 			<Item Name="Flow Meter Test.lvbitx" Type="Document" URL="../FPGA/bitfiles/Flow Meter Test.lvbitx"/>
 			<Item Name="Hella CAN.vi" Type="VI" URL="../SubVIs/Hella CAN.vi"/>
@@ -4494,10 +4475,6 @@ DirectoryIndex index.htm
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
-			<Item Name="niLvFpga_Run_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Run_sbRIO-9626.vi"/>
-			<Item Name="niLvFpga_Reset_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Reset_sbRIO-9626.vi"/>
-			<Item Name="niLvFpga_Close_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Close_sbRIO-9626.vi"/>
-			<Item Name="niLvFpga_Abort_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Abort_sbRIO-9626.vi"/>
 			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
 			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
 			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
@@ -4507,6 +4484,25 @@ DirectoryIndex index.htm
 			<Item Name="Concat Data.vi" Type="VI" URL="../SubVIs/Data Logger/Concat Data.vi"/>
 			<Item Name="Push Sync Files to WebDAV.vi" Type="VI" URL="../SubVIs/Data Logger/Push Sync Files to WebDAV.vi"/>
 			<Item Name="RPi WebDAV.vi" Type="VI" URL="../SubVIs/Data Logger/RPi WebDAV.vi"/>
+			<Item Name="Data Logger Loop.vi" Type="VI" URL="../SubVIs/Data Logger/Data Logger Loop.vi"/>
+			<Item Name="Data Logger Global.vi" Type="VI" URL="../SubVIs/Data Logger/Data Logger Global.vi"/>
+			<Item Name="niLvFpga_Run_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Run_sbRIO-9626.vi"/>
+			<Item Name="niLvFpga_Reset_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Reset_sbRIO-9626.vi"/>
+			<Item Name="Read Write App Config.vi" Type="VI" URL="../SubVIs/Read Write App Config.vi"/>
+			<Item Name="Get Elapsed Times.vi" Type="VI" URL="../SubVIs/Get Elapsed Times.vi"/>
+			<Item Name="Get Pressure Offsets.vi" Type="VI" URL="../SubVIs/Get Pressure Offsets.vi"/>
+			<Item Name="Get Cal Coefficients.vi" Type="VI" URL="../SubVIs/Get Cal Coefficients.vi"/>
+			<Item Name="Init ADCs.vi" Type="VI" URL="../SubVIs/Init ADCs.vi"/>
+			<Item Name="Init FPGA.vi" Type="VI" URL="../SubVIs/Init FPGA.vi"/>
+			<Item Name="Save Profile.vi" Type="VI" URL="../SubVIs/Save Profile.vi"/>
+			<Item Name="Run Step.vi" Type="VI" URL="../SubVIs/Run Step.vi"/>
+			<Item Name="Signal Breakout.vi" Type="VI" URL="../SubVIs/Signal Breakout.vi"/>
+			<Item Name="Evaluate Alarms.vi" Type="VI" URL="../SubVIs/Evaluate Alarms.vi"/>
+			<Item Name="niLvFpga_ReadFifo_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_ReadFifo_sbRIO-9626.vi"/>
+			<Item Name="niLvFpga_ConfigureFifo_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_ConfigureFifo_sbRIO-9626.vi"/>
+			<Item Name="niLvFpgaMergeErrorWithErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaMergeErrorWithErrorCode.vi"/>
+			<Item Name="Live Tank Data.ctl" Type="VI" URL="../Controls/Live Tank Data.ctl"/>
+			<Item Name="Tank Data.ctl" Type="VI" URL="../Controls/Tank Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PS Control (OLD)" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
