@@ -4542,6 +4542,12 @@ DirectoryIndex index.htm
 			<Item Name="Power Supply Global.vi" Type="VI" URL="../SubVIs/Power Supply Global.vi"/>
 			<Item Name="RPi HMI Global.vi" Type="VI" URL="../SubVIs/RPi HMI Global.vi"/>
 			<Item Name="RPi HMI Loop.vi" Type="VI" URL="../SubVIs/RPi HMI Loop.vi"/>
+			<Item Name="Email Loop.vi" Type="VI" URL="../SubVIs/Email Loop.vi"/>
+			<Item Name="Power Supply Loop.vi" Type="VI" URL="../SubVIs/Power Supply Loop.vi"/>
+			<Item Name="Power Supply Global Mode.ctl" Type="VI" URL="../Controls/Power Supply Global Mode.ctl"/>
+			<Item Name="Write FPGA Outputs.vi" Type="VI" URL="../SubVIs/Write FPGA Outputs.vi"/>
+			<Item Name="App Global Mode.ctl" Type="VI" URL="../Controls/App Global Mode.ctl"/>
+			<Item Name="HMI Global Mode.ctl" Type="VI" URL="../Controls/HMI Global Mode.ctl"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
@@ -4554,12 +4560,9 @@ DirectoryIndex index.htm
 			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
 			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
 			<Item Name="niLvFpga_Open_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Open_sbRIO-9626.vi"/>
-			<Item Name="Email Loop.vi" Type="VI" URL="../SubVIs/Email Loop.vi"/>
-			<Item Name="Power Supply Loop.vi" Type="VI" URL="../SubVIs/Power Supply Loop.vi"/>
-			<Item Name="Power Supply Global Mode.ctl" Type="VI" URL="../Controls/Power Supply Global Mode.ctl"/>
-			<Item Name="Write FPGA Outputs.vi" Type="VI" URL="../SubVIs/Write FPGA Outputs.vi"/>
-			<Item Name="App Global Mode.ctl" Type="VI" URL="../Controls/App Global Mode.ctl"/>
-			<Item Name="HMI Global Mode.ctl" Type="VI" URL="../Controls/HMI Global Mode.ctl"/>
+			<Item Name="niLvFpga_ReadFifo_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_ReadFifo_sbRIO-9626.vi"/>
+			<Item Name="niLvFpga_ConfigureFifo_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_ConfigureFifo_sbRIO-9626.vi"/>
+			<Item Name="niLvFpgaMergeErrorWithErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaMergeErrorWithErrorCode.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PS Control (OLD)" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
