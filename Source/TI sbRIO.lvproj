@@ -280,7 +280,7 @@
 	</Item>
 	<Item Name="RT Single-Board RIO" Type="RT Single-Board RIO">
 		<Property Name="alias.name" Type="Str">RT Single-Board RIO</Property>
-		<Property Name="alias.value" Type="Str">10.30.189.154</Property>
+		<Property Name="alias.value" Type="Str">10.30.189.164</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,758B;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">758B</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
@@ -4711,8 +4711,6 @@ DirectoryIndex index.htm
 			<Item Name="Data to String.vi" Type="VI" URL="../SubVIs/Data to String.vi"/>
 			<Item Name="Controller List.vi" Type="VI" URL="../SubVIs/Controller List.vi"/>
 			<Item Name="TI sbRIO PWM (FPGA) v1.0.lvbitx" Type="Document" URL="../FPGA/bitfiles/TI sbRIO PWM (FPGA) v1.0.lvbitx"/>
-			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
-			<Item Name="niLvFpga_ConfigureFifo_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_ConfigureFifo_sbRIO-9626.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Really Simple Data Logger" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
