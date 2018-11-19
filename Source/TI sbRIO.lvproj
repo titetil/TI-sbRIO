@@ -280,7 +280,7 @@
 	</Item>
 	<Item Name="RT Single-Board RIO" Type="RT Single-Board RIO">
 		<Property Name="alias.name" Type="Str">RT Single-Board RIO</Property>
-		<Property Name="alias.value" Type="Str">10.30.189.154</Property>
+		<Property Name="alias.value" Type="Str">10.30.189.158</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,758B;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">758B</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
@@ -3685,9 +3685,6 @@ DirectoryIndex index.htm
 						<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
 						<Item Name="LVFixedPointOverflowPolicyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointOverflowPolicyTypeDef.ctl"/>
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-						<Item Name="niFPGA Period Edge Direction.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/measure/period/templates/niFPGA Period Edge Direction.ctl"/>
-						<Item Name="niFPGA Threshold Crossing Logic.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA Threshold Crossing Logic.vi"/>
-						<Item Name="niFPGA Threshold Crossing State.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA Threshold Crossing State.ctl"/>
 						<Item Name="niFPGA I32xI32 MAC+ MSB.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 MAC+ MSB.vi"/>
 						<Item Name="niFPGA BW CU Order 2  n-chan (16-bit).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/measure/butterworth/templates/niFPGA BW CU Order 2  n-chan (16-bit).vi"/>
 						<Item Name="niFPGA Read Write Memory (I32).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA Read Write Memory (I32).vi"/>
@@ -4250,8 +4247,7 @@ DirectoryIndex index.htm
 		<Item Name="Find Speed (Optimized).vi" Type="VI" URL="../SubVIs/Find Speed (Optimized).vi"/>
 		<Item Name="Speed Config Global.vi" Type="VI" URL="../SubVIs/Speed Config Global.vi"/>
 		<Item Name="Speed Loop.vi" Type="VI" URL="../SubVIs/Speed Loop.vi"/>
-		<Item Name="SD Card.vi" Type="VI" URL="../SubVIs/SD Card.vi"/>
-		<Item Name="Save Issue Global.vi" Type="VI" URL="../SubVIs/Save Issue Global.vi"/>
+		<Item Name="Remove U Folder.vi" Type="VI" URL="../SubVIs/Remove U Folder.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
