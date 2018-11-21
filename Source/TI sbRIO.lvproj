@@ -25,6 +25,7 @@
 	<Property Name="varPersistentID:{49844206-3400-4A12-AD3D-80220C4DD021}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email103</Property>
 	<Property Name="varPersistentID:{4D2CB56E-9E46-4FFC-A0A0-FBA2D1C0CD37}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email101</Property>
 	<Property Name="varPersistentID:{4D97407F-B785-42F3-BCB5-7550882F4471}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email142</Property>
+	<Property Name="varPersistentID:{4DEE1D03-E220-42A0-B486-75F072973049}" Type="Ref">/RT Single-Board RIO/Datalog.lvlib/Datalog Error</Property>
 	<Property Name="varPersistentID:{4E6B334E-5FB8-4E75-9D80-15A6ED7F0522}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email128</Property>
 	<Property Name="varPersistentID:{4F7F190B-0749-47D7-9060-AB5E2F1F6DF7}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email139</Property>
 	<Property Name="varPersistentID:{4F986623-6B3B-44CA-A9E5-31CDE793B09E}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email166</Property>
@@ -4248,6 +4249,8 @@ DirectoryIndex index.htm
 		<Item Name="Speed Config Global.vi" Type="VI" URL="../SubVIs/Speed Config Global.vi"/>
 		<Item Name="Speed Loop.vi" Type="VI" URL="../SubVIs/Speed Loop.vi"/>
 		<Item Name="Remove U Folder.vi" Type="VI" URL="../SubVIs/Remove U Folder.vi"/>
+		<Item Name="File Check.vi" Type="VI" URL="../SubVIs/Data Logger/File Check.vi"/>
+		<Item Name="Datalog.lvlib" Type="Library" URL="../SubVIs/Datalog.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -4708,17 +4711,17 @@ DirectoryIndex index.htm
 			<Item Name="Controller List.vi" Type="VI" URL="../SubVIs/Controller List.vi"/>
 			<Item Name="TI sbRIO PWM (FPGA) v1.0.lvbitx" Type="Document" URL="../FPGA/bitfiles/TI sbRIO PWM (FPGA) v1.0.lvbitx"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
+			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
+			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
+			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
+			<Item Name="niLvFpga_Open_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Open_sbRIO-9626.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
 			<Item Name="niLvFpga_Run_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Run_sbRIO-9626.vi"/>
 			<Item Name="niLvFpga_Reset_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Reset_sbRIO-9626.vi"/>
-			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
-			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
-			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
-			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
-			<Item Name="niLvFpga_Open_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Open_sbRIO-9626.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Really Simple Data Logger" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
