@@ -150,6 +150,7 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -179,6 +180,7 @@
 			<Item Name="Alarm Config.ctl" Type="VI" URL="../Controls/Alarm Config.ctl"/>
 			<Item Name="Alarm Definition.ctl" Type="VI" URL="../Controls/Alarm Definition.ctl"/>
 			<Item Name="Alarm Profile Config.ctl" Type="VI" URL="../Controls/Alarm Profile Config.ctl"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Alarm Email Handler" Type="EXE">
@@ -280,7 +282,7 @@
 	</Item>
 	<Item Name="RT Single-Board RIO" Type="RT Single-Board RIO">
 		<Property Name="alias.name" Type="Str">RT Single-Board RIO</Property>
-		<Property Name="alias.value" Type="Str">10.30.189.112</Property>
+		<Property Name="alias.value" Type="Str">10.30.189.128</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,758B;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">758B</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
@@ -3678,7 +3680,7 @@ DirectoryIndex index.htm
 				</Item>
 				<Item Name="Dependencies" Type="Dependencies">
 					<Item Name="user.lib" Type="Folder">
-						<Item Name="NI SPI IP FPGA.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/NI SPI IP FPGA.lvlib"/>
+						<Item Name="DIO SPI FPGA.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/DIO SPI FPGA.lvlib"/>
 					</Item>
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -4500,7 +4502,6 @@ DirectoryIndex index.htm
 				<Item Name="Read Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Key (Variant)__ogtk.vi"/>
 				<Item Name="Read Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Section Cluster__ogtk.vi"/>
 				<Item Name="Read INI Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read INI Cluster__ogtk.vi"/>
-				<Item Name="NI SPI IP FPGA.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/NI SPI IP FPGA.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -4712,6 +4713,10 @@ DirectoryIndex index.htm
 			<Item Name="Data to String.vi" Type="VI" URL="../SubVIs/Data to String.vi"/>
 			<Item Name="Controller List.vi" Type="VI" URL="../SubVIs/Controller List.vi"/>
 			<Item Name="TI sbRIO PWM (FPGA) v1.0.lvbitx" Type="Document" URL="../FPGA/bitfiles/TI sbRIO PWM (FPGA) v1.0.lvbitx"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Really Simple Data Logger" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
