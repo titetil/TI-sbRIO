@@ -2,7 +2,6 @@
 <Project Type="Project" LVVersion="13008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Property Name="varPersistentID:{0079A5A3-7DCB-46E4-8AE1-692DBA220AE8}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email121</Property>
-	<Property Name="varPersistentID:{03B71CE5-94D0-4F1B-8CD5-C57AAED85DC8}" Type="Ref">/RT Single-Board RIO/PS Control.lvlib/PS4CMD</Property>
 	<Property Name="varPersistentID:{06AD2CF7-1A7A-46B9-8308-82B9A8BD741F}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email123</Property>
 	<Property Name="varPersistentID:{11028C69-D77C-427B-9F99-D0384E6DE751}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email146</Property>
 	<Property Name="varPersistentID:{15160CE5-F1E9-49D9-9C92-903CF896DEC8}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email126</Property>
@@ -14,14 +13,12 @@
 	<Property Name="varPersistentID:{251C1A1B-52F0-47AC-BE10-F4554135745F}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email161</Property>
 	<Property Name="varPersistentID:{25882C71-6D90-4764-A684-AAE31100D968}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email104</Property>
 	<Property Name="varPersistentID:{26DBE4B0-126D-4019-8ED0-0031B105061A}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email102</Property>
-	<Property Name="varPersistentID:{2918F76C-7748-41E1-9FA7-92A836840F47}" Type="Ref">/RT Single-Board RIO/PS Control.lvlib/PS1CMD</Property>
 	<Property Name="varPersistentID:{32D60B7A-B4B4-498A-B866-704D82C75F18}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email148</Property>
 	<Property Name="varPersistentID:{35EAEA79-0AA0-49EC-BA3F-52C35A42F6B4}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email153</Property>
 	<Property Name="varPersistentID:{372335CE-8635-4DFF-BFC9-D2628DE0DCC2}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email162</Property>
 	<Property Name="varPersistentID:{37C61B2E-474B-42B8-90AE-84FDDB576443}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email120</Property>
 	<Property Name="varPersistentID:{395AAA68-496A-43D1-B8DD-CC41610C3145}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email108</Property>
 	<Property Name="varPersistentID:{3EAC9F61-3C7C-4D82-AEA1-49F04F43EEFB}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email112</Property>
-	<Property Name="varPersistentID:{3FB9F265-59D8-44B6-A96F-7ABF92DC850F}" Type="Ref">/RT Single-Board RIO/PS Control.lvlib/PS3Enable</Property>
 	<Property Name="varPersistentID:{49844206-3400-4A12-AD3D-80220C4DD021}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email103</Property>
 	<Property Name="varPersistentID:{4D2CB56E-9E46-4FFC-A0A0-FBA2D1C0CD37}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email101</Property>
 	<Property Name="varPersistentID:{4D97407F-B785-42F3-BCB5-7550882F4471}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email142</Property>
@@ -31,7 +28,6 @@
 	<Property Name="varPersistentID:{510254FA-397A-45B4-A5F9-A2DA1FDFB109}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email130</Property>
 	<Property Name="varPersistentID:{564A6116-2D9D-4223-9268-D992BC524B09}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email136</Property>
 	<Property Name="varPersistentID:{58036DE3-E084-4DFB-80B3-15314996A7A3}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email156</Property>
-	<Property Name="varPersistentID:{58D5EF7B-900C-427C-8847-85AFC3F09844}" Type="Ref">/RT Single-Board RIO/PS Control.lvlib/PS1Enable</Property>
 	<Property Name="varPersistentID:{634428CE-D647-4A41-9025-00DD792E8489}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email110</Property>
 	<Property Name="varPersistentID:{6870E083-E7BF-4337-8AA1-B8159F481AC0}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email122</Property>
 	<Property Name="varPersistentID:{6A88DB61-E9D7-41FB-9177-8BA36420B369}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email154</Property>
@@ -42,7 +38,6 @@
 	<Property Name="varPersistentID:{73D72833-D411-43D0-81D3-AE98A1B2681F}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email107</Property>
 	<Property Name="varPersistentID:{7794182B-D777-45EE-AE18-5EDEDA875846}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email134</Property>
 	<Property Name="varPersistentID:{7844EBA8-688D-49FD-8BB2-BF2398809C76}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email157</Property>
-	<Property Name="varPersistentID:{78C65E6E-E690-4CD0-9AE9-14F79DFA14EC}" Type="Ref">/RT Single-Board RIO/PS Control.lvlib/PS4Enable</Property>
 	<Property Name="varPersistentID:{7C1AC19A-F355-458B-A07E-189B4BC209D8}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email118</Property>
 	<Property Name="varPersistentID:{85C781BD-326F-44E5-9303-D96B125F718D}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email160</Property>
 	<Property Name="varPersistentID:{8BCCCE94-5C5C-459C-8DD2-189CB9062436}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email129</Property>
@@ -52,12 +47,10 @@
 	<Property Name="varPersistentID:{98AF4AA0-CA63-4B8A-BA8E-76558AD00F9E}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email109</Property>
 	<Property Name="varPersistentID:{9A8FC45F-EA19-4C9D-8B12-007801046692}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email149</Property>
 	<Property Name="varPersistentID:{9DF3E115-032C-44CC-BA03-897C0CE15C95}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email140</Property>
-	<Property Name="varPersistentID:{9EB3E068-AF9D-4F43-BA2D-A3D34BD1C986}" Type="Ref">/RT Single-Board RIO/PS Control.lvlib/PS2CMD</Property>
 	<Property Name="varPersistentID:{A3797A55-EC9E-4663-88F6-7A5DD07A5E84}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email144</Property>
 	<Property Name="varPersistentID:{A39E911E-71D9-439F-BADC-33A2FEFD27AA}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email150</Property>
 	<Property Name="varPersistentID:{A4192BCD-2B4E-43D6-8160-930988E82007}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email105</Property>
 	<Property Name="varPersistentID:{A7B631C9-493E-4762-A139-E5ACDD3049E3}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email168</Property>
-	<Property Name="varPersistentID:{A827FC60-B260-426D-92D9-C4AC10202B1A}" Type="Ref">/RT Single-Board RIO/PS Control.lvlib/PS3CMD</Property>
 	<Property Name="varPersistentID:{A95F7566-95D1-4976-9B7D-FC6B72038E20}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email131</Property>
 	<Property Name="varPersistentID:{ACDF9D71-51AA-466B-AD03-5AC7D63AA84A}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email138</Property>
 	<Property Name="varPersistentID:{AE384270-87F2-4599-8358-02434BE59A14}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email158</Property>
@@ -65,7 +58,6 @@
 	<Property Name="varPersistentID:{B7B011E2-9C29-4EF2-9DF6-99A756F5D1B4}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email167</Property>
 	<Property Name="varPersistentID:{BC30BAB5-0890-4AC6-B4BB-1307C4D32FE2}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email159</Property>
 	<Property Name="varPersistentID:{C476AA29-8B24-47A8-A325-CCD0EB1D4778}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email137</Property>
-	<Property Name="varPersistentID:{C50A47F7-3FDE-48BD-BD1A-7C6D58CAD06F}" Type="Ref">/RT Single-Board RIO/PS Control.lvlib/PS2Enable</Property>
 	<Property Name="varPersistentID:{C7B46CBA-77C5-45F5-8534-DC06F03E0330}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email169</Property>
 	<Property Name="varPersistentID:{CA183875-013D-43A1-8486-3494DD09DE8F}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email171</Property>
 	<Property Name="varPersistentID:{CC78E55C-4409-4616-9055-674F4A9F1E3F}" Type="Ref">/My Computer/Email Server/Email Handler.lvlib/Email100</Property>
@@ -280,7 +272,7 @@
 	</Item>
 	<Item Name="RT Single-Board RIO" Type="RT Single-Board RIO">
 		<Property Name="alias.name" Type="Str">RT Single-Board RIO</Property>
-		<Property Name="alias.value" Type="Str">10.30.189.158</Property>
+		<Property Name="alias.value" Type="Str">10.30.189.137</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,758B;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">758B</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
@@ -4233,27 +4225,47 @@ DirectoryIndex index.htm
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="ps.html" Type="Document" URL="../ps.html"/>
-		<Item Name="Really Simple Data Logger (RT).vi" Type="VI" URL="../Really Simple Data Logger (RT).vi"/>
 		<Item Name="rio.html" Type="Document" URL="../rio.html"/>
 		<Item Name="TI sbRIO Main (RT).vi" Type="VI" URL="../TI sbRIO Main (RT).vi"/>
-		<Item Name="PS Control.lvlib" Type="Library" URL="../SubVIs/PS Control.lvlib"/>
-		<Item Name="PS Control (RT).vi" Type="VI" URL="../SubVIs/PS Control (RT).vi"/>
 		<Item Name="FPGA_Reference.ctl" Type="VI" URL="../Controls/FPGA_Reference.ctl"/>
 		<Item Name="Auxiliary Data.ctl" Type="VI" URL="../Type Defs/Auxiliary Data.ctl"/>
-		<Item Name="Handle Brushed Speed.vi" Type="VI" URL="../SubVIs/Handle Brushed Speed.vi"/>
-		<Item Name="Readings Test (RT).vi" Type="VI" URL="../Readings Test (RT).vi"/>
-		<Item Name="GetSpeed.vi" Type="VI" URL="../SubVIs/GetSpeed.vi"/>
-		<Item Name="Find Speed (Optimized).vi" Type="VI" URL="../SubVIs/Find Speed (Optimized).vi"/>
-		<Item Name="Speed Config Global.vi" Type="VI" URL="../SubVIs/Speed Config Global.vi"/>
-		<Item Name="Speed Loop.vi" Type="VI" URL="../SubVIs/Speed Loop.vi"/>
-		<Item Name="Remove U Folder.vi" Type="VI" URL="../SubVIs/Remove U Folder.vi"/>
-		<Item Name="File Check.vi" Type="VI" URL="../SubVIs/Data Logger/File Check.vi"/>
-		<Item Name="Data Logger Error Global.vi" Type="VI" URL="../SubVIs/Data Logger/Data Logger Error Global.vi"/>
-		<Item Name="Error Global.vi" Type="VI" URL="../SubVIs/Error Global.vi"/>
-		<Item Name="CPU Log.vi" Type="VI" URL="../SubVIs/CPU Log.vi"/>
-		<Item Name="Error Loop.vi" Type="VI" URL="../SubVIs/Error Loop.vi"/>
-		<Item Name="Write Data to File.vi" Type="VI" URL="../SubVIs/Write Data to File.vi"/>
+		<Item Name="WebService" Type="Web Service">
+			<Property Name="Bld_buildSpecName" Type="Str"></Property>
+			<Property Name="Bld_version.build" Type="Int">1</Property>
+			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
+			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
+			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
+			<Property Name="ws.guid" Type="Str">{F12F4A71-DDEB-42CA-ADF1-5093AD3FBBD3}</Property>
+			<Property Name="ws.modifyLibraryFile" Type="Bool">true</Property>
+			<Property Name="ws.remoteDebugging" Type="Bool">false</Property>
+			<Property Name="ws.removeLibraryItems" Type="Bool">true</Property>
+			<Property Name="ws.removePolyVIs" Type="Bool">true</Property>
+			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
+			<Property Name="ws.SSE2" Type="Bool">true</Property>
+			<Property Name="ws.static_permissions" Type="Str"></Property>
+			<Property Name="ws.version.build" Type="Int">0</Property>
+			<Property Name="ws.version.fix" Type="Int">0</Property>
+			<Property Name="ws.version.major" Type="Int">1</Property>
+			<Property Name="ws.version.minor" Type="Int">0</Property>
+			<Item Name="Web Resources" Type="HTTP WebResources Container">
+				<Item Name="GetPumpData.vi" Type="VI" URL="../Web Services/GetPumpData.vi">
+					<Property Name="ws.buffered" Type="Bool">true</Property>
+					<Property Name="ws.includeNameInURL" Type="Bool">true</Property>
+					<Property Name="ws.keepInMemory" Type="Bool">true</Property>
+					<Property Name="ws.loadAtStartup" Type="Bool">true</Property>
+					<Property Name="ws.method" Type="Int">1</Property>
+					<Property Name="ws.outputFormat" Type="Int">2</Property>
+					<Property Name="ws.outputType" Type="Int">1</Property>
+					<Property Name="ws.permissions" Type="Str"></Property>
+					<Property Name="ws.requireAPIKey" Type="Bool">false</Property>
+					<Property Name="ws.type" Type="Int">1</Property>
+					<Property Name="ws.uri" Type="Str"></Property>
+					<Property Name="ws.useHeaders" Type="Bool">true</Property>
+					<Property Name="ws.useStandardURL" Type="Bool">true</Property>
+				</Item>
+			</Item>
+			<Item Name="Startup VIs" Type="Startup VIs Container"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -4532,12 +4544,9 @@ DirectoryIndex index.htm
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
@@ -4567,28 +4576,8 @@ DirectoryIndex index.htm
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
-				<Item Name="exnSpectralBlock clear magnitude.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/Spectral/Block/exnSpectralBlock clear magnitude.vi"/>
-				<Item Name="exnSpectralBlock clear phase.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/Spectral/Block/exnSpectralBlock clear phase.vi"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
-				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
-				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="exnSpectralBlock spectral measurements RMS WFM.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/Spectral/Block/exnSpectralBlock spectral measurements RMS WFM.vi"/>
-				<Item Name="exnSpectralBlock spectral measurements RMS WFM (CDB).vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/Spectral/Block/exnSpectralBlock spectral measurements RMS WFM (CDB).vi"/>
-				<Item Name="exnSpectralBlock clear DDT y array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/Spectral/Block/exnSpectralBlock clear DDT y array.vi"/>
-				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
-				<Item Name="exnSpectralBlock mod exp dyn x attribs.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/Spectral/Block/exnSpectralBlock mod exp dyn x attribs.vi"/>
-				<Item Name="ex_Modify Signal Name.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signal Name.vi"/>
-				<Item Name="ex_Modify Signals Names.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_Modify Signals Names.vi"/>
-				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
-				<Item Name="exnSpectralBlock spectral measurements RMS DDT.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/Spectral/Block/exnSpectralBlock spectral measurements RMS DDT.vi"/>
-				<Item Name="exnSpectralBlock clear array magnitudes.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/Spectral/Block/exnSpectralBlock clear array magnitudes.vi"/>
-				<Item Name="exnSpectralBlock clear array phases.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/Spectral/Block/exnSpectralBlock clear array phases.vi"/>
-				<Item Name="exnSpectralBlock spectral measurements RMS array WFM.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/Spectral/Block/exnSpectralBlock spectral measurements RMS array WFM.vi"/>
-				<Item Name="exnSpectralBlock spectral measurements RMS array WFM (CDB).vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/Spectral/Block/exnSpectralBlock spectral measurements RMS array WFM (CDB).vi"/>
-				<Item Name="exnSpectralBlock spectral measurements RMS poly.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/Spectral/Block/exnSpectralBlock spectral measurements RMS poly.vi"/>
-				<Item Name="niSMT.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Spectral Measurements Toolset/niSMT.lvlib"/>
-				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="NI_WebServices.lvlib" Type="Library" URL="/&lt;vilib&gt;/wsapi/NI_WebServices.lvlib"/>
 			</Item>
 			<Item Name="AI RT FIFO.vi" Type="VI" URL="../SubVIs/AI RT FIFO.vi"/>
 			<Item Name="App Config.ctl" Type="VI" URL="../Type Defs/App Config.ctl"/>
@@ -4611,7 +4600,6 @@ DirectoryIndex index.htm
 			<Item Name="TCP Data Stream Mode (RT).ctl" Type="VI" URL="../Real-Time/Controls/TCP Data Stream Mode (RT).ctl"/>
 			<Item Name="TCP Data Stream Mode.ctl" Type="VI" URL="../Real-Time/Controls/TCP Data Stream Mode.ctl"/>
 			<Item Name="TCP Data Stream.vi" Type="VI" URL="../SubVIs/TCP Data Stream.vi"/>
-			<Item Name="PS Control (FPGA).lvbitx" Type="Document" URL="../FPGA/bitfiles/PS Control (FPGA).lvbitx"/>
 			<Item Name="HMI Header.ctl" Type="VI" URL="../Controls/HMI Header.ctl"/>
 			<Item Name="Pump Data Mode.ctl" Type="VI" URL="../Type Defs/Pump Data Mode.ctl"/>
 			<Item Name="Tank Data Global.vi" Type="VI" URL="../Web Services/Tank Data Global.vi"/>
@@ -4716,6 +4704,20 @@ DirectoryIndex index.htm
 			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
 			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/nirio_resource_hc.ctl"/>
 			<Item Name="niLvFpga_Open_sbRIO-9626.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/sbRIO-9626/niLvFpga_Open_sbRIO-9626.vi"/>
+			<Item Name="Handle Brushed Speed.vi" Type="VI" URL="../SubVIs/Handle Brushed Speed.vi"/>
+			<Item Name="Find Speed (Optimized).vi" Type="VI" URL="../SubVIs/Find Speed (Optimized).vi"/>
+			<Item Name="Speed Config Global.vi" Type="VI" URL="../SubVIs/Speed Config Global.vi"/>
+			<Item Name="Speed Loop.vi" Type="VI" URL="../SubVIs/Speed Loop.vi"/>
+			<Item Name="File Check.vi" Type="VI" URL="../SubVIs/Data Logger/File Check.vi"/>
+			<Item Name="Data Logger Error Global.vi" Type="VI" URL="../SubVIs/Data Logger/Data Logger Error Global.vi"/>
+			<Item Name="Error Global.vi" Type="VI" URL="../SubVIs/Error Global.vi"/>
+			<Item Name="CPU Log.vi" Type="VI" URL="../SubVIs/CPU Log.vi"/>
+			<Item Name="Error Loop.vi" Type="VI" URL="../SubVIs/Error Loop.vi"/>
+			<Item Name="Write Data to File.vi" Type="VI" URL="../SubVIs/Write Data to File.vi"/>
+			<Item Name="AddCORSHeaders.vi" Type="VI" URL="../Web Services/AddCORSHeaders.vi"/>
+			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Really Simple Data Logger" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -4754,7 +4756,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/RT Single-Board RIO/rio.html</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT Single-Board RIO/Really Simple Data Logger (RT).vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Window has title bar</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Show menu bar</Property>
@@ -4784,6 +4786,8 @@ DirectoryIndex index.htm
 				<Property Name="App_INI_aliasGUID" Type="Str">{D9F084A9-74D1-422A-BED6-F059C9C517A4}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{1F46225E-08AD-4499-BBDE-B01C5C735AE9}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_webService.count" Type="Int">1</Property>
+				<Property Name="App_webService[0].itemID" Type="Ref">/RT Single-Board RIO/WebService</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{FB98F9AF-8E61-47B2-A994-C536B2271FB3}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">TI sbRIO</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -4806,7 +4810,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[2].path" Type="Path">/c/ni-rt/system/www</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CDC96030-51FA-49F4-8E45-23F8D489B923}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E5FB05A0-948F-4076-A050-F55CF6540999}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT Single-Board RIO/TI sbRIO Main (RT).vi</Property>
@@ -4856,11 +4860,11 @@ DirectoryIndex index.htm
 				<Property Name="Source[0].itemID" Type="Str">{5691B776-2D41-4325-9DE3-7B3A6A9C8AD7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT Single-Board RIO/PS Control (RT).vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT Single-Board RIO/ps.html</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">TI Automotive</Property>
