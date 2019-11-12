@@ -1,0 +1,17 @@
+jqx-numeric-text-box, ni-string-control {
+    //--ni-border: none;
+    //--ni-foreground-color: white !important;
+    --ni-indicator-background-color: white;
+    --ni-control-background-color: white;
+}
+
+ni-array-viewer[read-only] .jqx-array-big-container, ni-array-viewer[read-only] .jqx-array-indexer-container, ni-cluster, ni-tab-item {
+    border: 0px solid #99c9ef;
+    background: var(--ni-true-white);
+}
+
+.border-box {
+	//border: 1px solid var(--ni-border-color);
+    background: transparent;
+}
+
