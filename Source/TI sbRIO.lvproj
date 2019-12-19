@@ -118,6 +118,7 @@
 			<Item Name="Alarm Config.ctl" Type="VI" URL="../Controls/Alarm Config.ctl"/>
 			<Item Name="Alarm Definition.ctl" Type="VI" URL="../Controls/Alarm Definition.ctl"/>
 			<Item Name="Alarm Profile Config.ctl" Type="VI" URL="../Controls/Alarm Profile Config.ctl"/>
+			<Item Name="Email Cluster.ctl" Type="VI" URL="../Type Defs/Email Cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Alarm Email Handler" Type="EXE">
@@ -135,7 +136,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6855AF22-6D66-4EE8-8117-1F5947E6CC06}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Alarm Email Handler.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Email Handler/Executable/Alarm Email Handler.exe</Property>
@@ -151,7 +152,7 @@
 				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
 				<Property Name="Exe_VardepLibItemCount" Type="Int">1</Property>
 				<Property Name="Exe_VardepUndeployOnExit" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{ECDB00BD-75BA-4928-834A-99BCD9708596}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2C0F25F0-17B1-4D3E-BE1E-379CDE70C4CB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Email Server/Email Handler (PC).vi</Property>
@@ -219,7 +220,7 @@
 	</Item>
 	<Item Name="RT Single-Board RIO" Type="RT Single-Board RIO">
 		<Property Name="alias.name" Type="Str">RT Single-Board RIO</Property>
-		<Property Name="alias.value" Type="Str">10.30.189.144</Property>
+		<Property Name="alias.value" Type="Str">10.30.189.112</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,758B;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">758B</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
@@ -3474,6 +3475,7 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="Startup VIs" Type="Startup VIs Container"/>
 		</Item>
+		<Item Name="Pump Timer Email.ctl" Type="VI" URL="../Type Defs/Pump Timer Email.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
