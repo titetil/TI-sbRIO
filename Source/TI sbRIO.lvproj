@@ -3316,6 +3316,17 @@ DirectoryIndex index.htm
 						<Item Name="niFPGA Read Write Memory (I32).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA Read Write Memory (I32).vi"/>
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
+					<Item Name="Diagnostic Mode.ctl" Type="VI" URL="../Type Defs/Diagnostic Mode.ctl"/>
+					<Item Name="SPI Channels.ctl" Type="VI" URL="../FPGA/Controls/SPI Channels.ctl"/>
+					<Item Name="Onboard AIs Global.vi" Type="VI" URL="../FPGA/Onboard AIs Global.vi"/>
+					<Item Name="Pulse Width Modulation (FPGA).vi" Type="VI" URL="../FPGA/SubVIs/Pulse Width Modulation (FPGA).vi"/>
+					<Item Name="ADC AI Global.vi" Type="VI" URL="../FPGA/ADC AI Global.vi"/>
+					<Item Name="Flow Frequencies Global.vi" Type="VI" URL="../FPGA/Flow Frequencies Global.vi"/>
+					<Item Name="Moving Average.vi" Type="VI" URL="../FPGA/SubVIs/Moving Average.vi"/>
+					<Item Name="ADC AI Global (Avg).vi" Type="VI" URL="../FPGA/ADC AI Global (Avg).vi"/>
+					<Item Name="Pump Currents Global.vi" Type="VI" URL="../FPGA/Pump Currents Global.vi"/>
+					<Item Name="Diagnostic Global.vi" Type="VI" URL="../FPGA/Diagnostic Global.vi"/>
+					<Item Name="FPGA Debounce Digital.vi" Type="VI" URL="../FPGA/FPGA Debounce Digital.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="TI sbRIO PWM (FPGA)" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -3664,7 +3675,6 @@ DirectoryIndex index.htm
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
@@ -3761,7 +3771,6 @@ DirectoryIndex index.htm
 			<Item Name="Controller Config.ctl" Type="VI" URL="../Controls/Controller Config.ctl"/>
 			<Item Name="Get Time and Date.vi" Type="VI" URL="../SubVIs/Get Time and Date.vi"/>
 			<Item Name="Email Mode.ctl" Type="VI" URL="../Controls/Email Mode.ctl"/>
-			<Item Name="PI with FF.vi" Type="VI" URL="../SubVIs/PI with FF.vi"/>
 			<Item Name="ADC Checker.vi" Type="VI" URL="../SubVIs/ADC Checker.vi"/>
 			<Item Name="Data Logger Mode.ctl" Type="VI" URL="../SubVIs/Data Logger/Data Logger Mode.ctl"/>
 			<Item Name="Write Headers.vi" Type="VI" URL="../SubVIs/Data Logger/Write Headers.vi"/>
@@ -3769,12 +3778,9 @@ DirectoryIndex index.htm
 			<Item Name="Data Log Start.ctl" Type="VI" URL="../SubVIs/Data Logger/Data Log Start.ctl"/>
 			<Item Name="Data Loop.vi" Type="VI" URL="../SubVIs/Data Loop.vi"/>
 			<Item Name="Write PWM Outputs.vi" Type="VI" URL="../SubVIs/Write PWM Outputs.vi"/>
-			<Item Name="Freeze PID.vi" Type="VI" URL="../SubVIs/Freeze PID.vi"/>
 			<Item Name="Enable Timers.vi" Type="VI" URL="../SubVIs/Enable Timers.vi"/>
 			<Item Name="Email Global.vi" Type="VI" URL="../SubVIs/Email Global.vi"/>
-			<Item Name="Power Supply Global.vi" Type="VI" URL="../SubVIs/Power Supply Global.vi"/>
 			<Item Name="RPi HMI Global.vi" Type="VI" URL="../SubVIs/RPi HMI Global.vi"/>
-			<Item Name="Power Supply Global Mode.ctl" Type="VI" URL="../Controls/Power Supply Global Mode.ctl"/>
 			<Item Name="Write FPGA Outputs.vi" Type="VI" URL="../SubVIs/Write FPGA Outputs.vi"/>
 			<Item Name="App Global Mode.ctl" Type="VI" URL="../Controls/App Global Mode.ctl"/>
 			<Item Name="HMI Global Mode.ctl" Type="VI" URL="../Controls/HMI Global Mode.ctl"/>
@@ -3836,6 +3842,8 @@ DirectoryIndex index.htm
 			<Item Name="Convert Test Profile.vi" Type="VI" URL="../SubVIs/Convert Test Profile.vi"/>
 			<Item Name="Pump Timers.ctl" Type="VI" URL="../Type Defs/Pump Timers.ctl"/>
 			<Item Name="Restarts Loop.vi" Type="VI" URL="../SubVIs/Restarts Loop.vi"/>
+			<Item Name="Restarts Loop to Main.vi" Type="VI" URL="../SubVIs/Restarts Loop to Main.vi"/>
+			<Item Name="Duty to Ticks.vi" Type="VI" URL="../SubVIs/Duty to Ticks.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TI sbRIO" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -3982,7 +3990,6 @@ DirectoryIndex index.htm
 				<Property Name="Mode" Type="Int">0</Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">sbRIO-9627/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSSBRIO_9627FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
-				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/gtetil/Documents/Projects/TI-sbRIO/Source/FPGA/TI sbRIO Main (FPGA).vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="Target Class" Type="Str">sbRIO-9627</Property>
 				<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
@@ -7172,6 +7179,7 @@ DirectoryIndex index.htm
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="Duty to Ticks.vi" Type="VI" URL="../SubVIs/Duty to Ticks.vi"/>
 		<Item Name="Pump Timers.ctl" Type="VI" URL="../Type Defs/Pump Timers.ctl"/>
 		<Item Name="TI sbRIO Main (RT).vi" Type="VI" URL="../TI sbRIO Main (RT).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -7441,7 +7449,6 @@ DirectoryIndex index.htm
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
@@ -7510,7 +7517,6 @@ DirectoryIndex index.htm
 			<Item Name="File Check.vi" Type="VI" URL="../SubVIs/Data Logger/File Check.vi"/>
 			<Item Name="Find Speed (Optimized).vi" Type="VI" URL="../SubVIs/Find Speed (Optimized).vi"/>
 			<Item Name="FPGA_Reference.ctl" Type="VI" URL="../Controls/FPGA_Reference.ctl"/>
-			<Item Name="Freeze PID.vi" Type="VI" URL="../SubVIs/Freeze PID.vi"/>
 			<Item Name="Get Cal Coefficients.vi" Type="VI" URL="../SubVIs/Get Cal Coefficients.vi"/>
 			<Item Name="Get Pressure Offsets.vi" Type="VI" URL="../SubVIs/Get Pressure Offsets.vi"/>
 			<Item Name="Get Time and Date.vi" Type="VI" URL="../SubVIs/Get Time and Date.vi"/>
@@ -7552,9 +7558,6 @@ DirectoryIndex index.htm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PI with FF.vi" Type="VI" URL="../SubVIs/PI with FF.vi"/>
-			<Item Name="Power Supply Global Mode.ctl" Type="VI" URL="../Controls/Power Supply Global Mode.ctl"/>
-			<Item Name="Power Supply Global.vi" Type="VI" URL="../SubVIs/Power Supply Global.vi"/>
 			<Item Name="Profile Loop to Main.vi" Type="VI" URL="../SubVIs/Profile Loop to Main.vi"/>
 			<Item Name="Profile Loop.vi" Type="VI" URL="../SubVIs/Profile Loop.vi"/>
 			<Item Name="Profile Main to Loop.vi" Type="VI" URL="../SubVIs/Profile Main to Loop.vi"/>
@@ -7571,6 +7574,7 @@ DirectoryIndex index.htm
 			<Item Name="Pump Timer Email.ctl" Type="VI" URL="../Type Defs/Pump Timer Email.ctl"/>
 			<Item Name="Push Sync Files to WebDAV.vi" Type="VI" URL="../SubVIs/Data Logger/Push Sync Files to WebDAV.vi"/>
 			<Item Name="Read Write App Config.vi" Type="VI" URL="../SubVIs/Read Write App Config.vi"/>
+			<Item Name="Restarts Loop to Main.vi" Type="VI" URL="../SubVIs/Restarts Loop to Main.vi"/>
 			<Item Name="Restarts Loop.vi" Type="VI" URL="../SubVIs/Restarts Loop.vi"/>
 			<Item Name="rioembeddedcanlvapi.dll" Type="Document" URL="rioembeddedcanlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
