@@ -7212,6 +7212,7 @@ DirectoryIndex index.htm
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="cmfb startup.vi" Type="VI" URL="../../../../../Desktop/cmfb startup.vi"/>
 		<Item Name="Copy Button.ctl" Type="VI" URL="../Controls/Copy Button.ctl"/>
 		<Item Name="loop for chanc.vi" Type="VI" URL="../../../../../Downloads/loop for chanc.vi"/>
 		<Item Name="rio.html" Type="Document" URL="../rio.html"/>
