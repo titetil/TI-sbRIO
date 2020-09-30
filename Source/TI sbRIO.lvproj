@@ -3314,19 +3314,21 @@ DirectoryIndex index.htm
 						<Item Name="niFPGA I32xI32 MAC+ MSB.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA I32xI32 MAC+ MSB.vi"/>
 						<Item Name="niFPGA BW CU Order 2  n-chan (16-bit).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/measure/butterworth/templates/niFPGA BW CU Order 2  n-chan (16-bit).vi"/>
 						<Item Name="niFPGA Read Write Memory (I32).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Analysis/utilities/niFPGA Read Write Memory (I32).vi"/>
+						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
 					<Item Name="Diagnostic Mode.ctl" Type="VI" URL="../Type Defs/Diagnostic Mode.ctl"/>
 					<Item Name="SPI Channels.ctl" Type="VI" URL="../FPGA/Controls/SPI Channels.ctl"/>
 					<Item Name="Onboard AIs Global.vi" Type="VI" URL="../FPGA/Onboard AIs Global.vi"/>
 					<Item Name="Pulse Width Modulation (FPGA).vi" Type="VI" URL="../FPGA/SubVIs/Pulse Width Modulation (FPGA).vi"/>
 					<Item Name="ADC AI Global.vi" Type="VI" URL="../FPGA/ADC AI Global.vi"/>
+					<Item Name="Diagnostic Global.vi" Type="VI" URL="../FPGA/Diagnostic Global.vi"/>
+					<Item Name="Diagnostic Global (U32).vi" Type="VI" URL="../FPGA/Diagnostic Global (U32).vi"/>
 					<Item Name="Flow Frequencies Global.vi" Type="VI" URL="../FPGA/Flow Frequencies Global.vi"/>
 					<Item Name="Moving Average.vi" Type="VI" URL="../FPGA/SubVIs/Moving Average.vi"/>
 					<Item Name="ADC AI Global (Avg).vi" Type="VI" URL="../FPGA/ADC AI Global (Avg).vi"/>
 					<Item Name="Pump Currents Global.vi" Type="VI" URL="../FPGA/Pump Currents Global.vi"/>
-					<Item Name="Diagnostic Global.vi" Type="VI" URL="../FPGA/Diagnostic Global.vi"/>
-					<Item Name="FPGA Debounce Digital.vi" Type="VI" URL="../FPGA/FPGA Debounce Digital.vi"/>
 					<Item Name="ADC AI Global (U32).vi" Type="VI" URL="../FPGA/ADC AI Global (U32).vi"/>
+					<Item Name="FPGA Debounce Digital.vi" Type="VI" URL="../FPGA/FPGA Debounce Digital.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="TI sbRIO PWM (FPGA)" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -3843,6 +3845,8 @@ DirectoryIndex index.htm
 			<Item Name="Restarts Loop.vi" Type="VI" URL="../SubVIs/Restarts Loop.vi"/>
 			<Item Name="Restarts Loop to Main.vi" Type="VI" URL="../SubVIs/Restarts Loop to Main.vi"/>
 			<Item Name="Duty to Ticks.vi" Type="VI" URL="../SubVIs/Duty to Ticks.vi"/>
+			<Item Name="Coerce to Zero.vi" Type="VI" URL="../SubVIs/Coerce to Zero.vi"/>
+			<Item Name="DMA Error Global.vi" Type="VI" URL="../SubVIs/DMA Error Global.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TI sbRIO" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -3989,6 +3993,7 @@ DirectoryIndex index.htm
 				<Property Name="Mode" Type="Int">0</Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">sbRIO-9627/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSSBRIO_9627FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
+				<Property Name="niFpga_TopLevelVIID" Type="Path">/C/Users/gtetil/Documents/Projects/TI-sbRIO/Source/FPGA/TI sbRIO Main (FPGA).vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="Target Class" Type="Str">sbRIO-9627</Property>
 				<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
@@ -7033,6 +7038,7 @@ DirectoryIndex index.htm
 						<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 						<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
 						<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
+						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
 					<Item Name="user.lib" Type="Folder">
 						<Item Name="NI SPI IP FPGA.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NI SPI IP/FPGA/Controllers/NI SPI IP FPGA.lvlib"/>
@@ -7097,124 +7103,9 @@ DirectoryIndex index.htm
 						<Property Name="TargetName" Type="Str">FPGA Target 2</Property>
 						<Property Name="TopLevelVI" Type="Ref">/RT Single-Board RIO Target/Chassis/FPGA Target 2/TI sbRIO Main (FPGA).vi</Property>
 					</Item>
-					<Item Name="CMFB diagnostic" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
-						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
-						<Property Name="BuildSpecDecription" Type="Str"></Property>
-						<Property Name="BuildSpecName" Type="Str">CMFB diagnostic</Property>
-						<Property Name="Comp.BitfileName" Type="Str">tisbrio_FPGATarget2_CMFBdiagnostic_APBZv+3FN24.lvbitx</Property>
-						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
-						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
-						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
-						<Property Name="Comp.Version.Build" Type="Int">0</Property>
-						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
-						<Property Name="Comp.Version.Major" Type="Int">1</Property>
-						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
-						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
-						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
-						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
-						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
-						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
-						<Property Name="Comp.Xilinx.MapEffort" Type="Str">default(noTiming)</Property>
-						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
-						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
-						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
-						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
-						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
-						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/gtetil/Documents/Projects/TI-sbRIO/Source/FPGA Bitfiles/tisbrio_FPGATarget2_CMFBdiagnostic_APBZv+3FN24.lvbitx</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/tisbrio_FPGATarget2_CMFBdiagnostic_APBZv+3FN24.lvbitx</Property>
-						<Property Name="ProjectPath" Type="Path">/C/Users/gtetil/Documents/Projects/TI-sbRIO/Source/TI sbRIO.lvproj</Property>
-						<Property Name="RelativePath" Type="Bool">true</Property>
-						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
-						<Property Name="SupportDownload" Type="Bool">true</Property>
-						<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
-						<Property Name="TargetName" Type="Str">FPGA Target 2</Property>
-						<Property Name="TopLevelVI" Type="Ref"></Property>
-					</Item>
-					<Item Name="CMFB restarts (FPGA)" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
-						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
-						<Property Name="BuildSpecDecription" Type="Str"></Property>
-						<Property Name="BuildSpecName" Type="Str">CMFB restarts (FPGA)</Property>
-						<Property Name="Comp.BitfileName" Type="Str">tisbrio_FPGATarget2_CMFBrestarts(FPG_Zd0an+1dbK8.lvbitx</Property>
-						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
-						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
-						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
-						<Property Name="Comp.Version.Build" Type="Int">0</Property>
-						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
-						<Property Name="Comp.Version.Major" Type="Int">1</Property>
-						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
-						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
-						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
-						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
-						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
-						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
-						<Property Name="Comp.Xilinx.MapEffort" Type="Str">default(noTiming)</Property>
-						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
-						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
-						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
-						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
-						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
-						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/gtetil/Documents/Projects/TI-sbRIO/Source/FPGA Bitfiles/tisbrio_FPGATarget2_CMFBrestarts(FPG_Zd0an+1dbK8.lvbitx</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/tisbrio_FPGATarget2_CMFBrestarts(FPG_Zd0an+1dbK8.lvbitx</Property>
-						<Property Name="ProjectPath" Type="Path">/C/Users/gtetil/Documents/Projects/TI-sbRIO/Source/TI sbRIO.lvproj</Property>
-						<Property Name="RelativePath" Type="Bool">true</Property>
-						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
-						<Property Name="SupportDownload" Type="Bool">true</Property>
-						<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
-						<Property Name="TargetName" Type="Str">FPGA Target 2</Property>
-						<Property Name="TopLevelVI" Type="Ref"></Property>
-					</Item>
-					<Item Name="CMFB Test Profile (FPGA)" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
-						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
-						<Property Name="BuildSpecDecription" Type="Str"></Property>
-						<Property Name="BuildSpecName" Type="Str">CMFB Test Profile (FPGA)</Property>
-						<Property Name="Comp.BitfileName" Type="Str">tisbrio_FPGATarget2_CMFBTestProfile(_0GfL-UaPELg.lvbitx</Property>
-						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
-						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
-						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
-						<Property Name="Comp.Version.Build" Type="Int">0</Property>
-						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
-						<Property Name="Comp.Version.Major" Type="Int">1</Property>
-						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
-						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
-						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
-						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
-						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
-						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
-						<Property Name="Comp.Xilinx.MapEffort" Type="Str">default(noTiming)</Property>
-						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
-						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
-						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
-						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
-						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
-						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-						<Property Name="ProjectPath" Type="Path">/C/Users/gtetil/Documents/Projects/TI-sbRIO/Source/TI sbRIO.lvproj</Property>
-						<Property Name="RelativePath" Type="Bool">true</Property>
-						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
-						<Property Name="SupportDownload" Type="Bool">true</Property>
-						<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
-						<Property Name="TargetName" Type="Str">FPGA Target 2</Property>
-						<Property Name="TopLevelVI" Type="Ref"></Property>
-					</Item>
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="cmfb startup.vi" Type="VI" URL="../../../../../Desktop/cmfb startup.vi"/>
-		<Item Name="Copy Button.ctl" Type="VI" URL="../Controls/Copy Button.ctl"/>
-		<Item Name="loop for chanc.vi" Type="VI" URL="../../../../../Downloads/loop for chanc.vi"/>
 		<Item Name="rio.html" Type="Document" URL="../rio.html"/>
 		<Item Name="TI sbRIO Main (RT).vi" Type="VI" URL="../TI sbRIO Main (RT).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -7517,6 +7408,7 @@ DirectoryIndex index.htm
 			<Item Name="CAN Loop.vi" Type="VI" URL="../SubVIs/CAN Loop.vi"/>
 			<Item Name="CAN Mode.ctl" Type="VI" URL="../Type Defs/CAN Mode.ctl"/>
 			<Item Name="Check if Time to Log.vi" Type="VI" URL="../SubVIs/Data Logger/Check if Time to Log.vi"/>
+			<Item Name="Coerce to Zero.vi" Type="VI" URL="../SubVIs/Coerce to Zero.vi"/>
 			<Item Name="Concat Data.vi" Type="VI" URL="../SubVIs/Data Logger/Concat Data.vi"/>
 			<Item Name="Conti CAN.vi" Type="VI" URL="../SubVIs/Conti CAN.vi"/>
 			<Item Name="Controller Config.ctl" Type="VI" URL="../Controls/Controller Config.ctl"/>
@@ -7538,6 +7430,7 @@ DirectoryIndex index.htm
 			<Item Name="Data to CSV.vi" Type="VI" URL="../SubVIs/Data to CSV.vi"/>
 			<Item Name="Data to String.vi" Type="VI" URL="../SubVIs/Data to String.vi"/>
 			<Item Name="Diagnostic Mode.ctl" Type="VI" URL="../Type Defs/Diagnostic Mode.ctl"/>
+			<Item Name="DMA Error Global.vi" Type="VI" URL="../SubVIs/DMA Error Global.vi"/>
 			<Item Name="DMA Pause Global.vi" Type="VI" URL="../SubVIs/DMA Pause Global.vi"/>
 			<Item Name="Duty to Ticks.vi" Type="VI" URL="../SubVIs/Duty to Ticks.vi"/>
 			<Item Name="E2E_EB_CalculateCrc (Hella).vi" Type="VI" URL="../SubVIs/E2E_EB_CalculateCrc (Hella).vi"/>
@@ -7665,7 +7558,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B1390B63-E612-4800-87A9-EF566B2D9DCA}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
