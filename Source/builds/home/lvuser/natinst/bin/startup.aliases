@@ -1,8 +1,8 @@
 [My Computer]
 My Computer="10.30.181.42"
 
-[RT Single-Board RIO]
-RT Single-Board RIO="10.30.189.154"
+[RT Single-Board RIO (9626)]
+RT Single-Board RIO (9626)="10.30.189.137"
 
-[RT Single-Board RIO Target]
-RT Single-Board RIO Target="localhost"
+[RT Single-Board RIO (9627)]
+RT Single-Board RIO (9627)="localhost"
