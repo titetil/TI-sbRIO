@@ -222,7 +222,7 @@
 	</Item>
 	<Item Name="RT Single-Board RIO (9626)" Type="RT Single-Board RIO">
 		<Property Name="alias.name" Type="Str">RT Single-Board RIO (9626)</Property>
-		<Property Name="alias.value" Type="Str">10.30.189.137</Property>
+		<Property Name="alias.value" Type="Str">10.30.189.152</Property>
 		<Property Name="CCSymbols" Type="Str">OS,VxWorks;CPU,PowerPC;DeviceCode,758B;sbRIO_model,9626;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">758B</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
@@ -3729,7 +3729,7 @@ DirectoryIndex index.htm
 			<Item Name="HMI Cluster.ctl" Type="VI" URL="../Controls/HMI Cluster.ctl"/>
 			<Item Name="Data to CSV.vi" Type="VI" URL="../SubVIs/Data to CSV.vi"/>
 			<Item Name="Amps Display.vi" Type="VI" URL="../SubVIs/Amps Display.vi"/>
-			<Item Name="Email to Handler.vi" Type="VI" URL="../../../reliability-temp-logger/SubVIs/Email to Handler.vi"/>
+			<Item Name="Email to Handler.vi" Type="VI" URL="../SubVIs/Email to Handler.vi"/>
 			<Item Name="MB Serial Init.vi" Type="VI" URL="../SubVIs/Watlow Modbus/NI Modbus.llb/MB Serial Init.vi"/>
 			<Item Name="MB Decode Data.vi" Type="VI" URL="../SubVIs/Watlow Modbus/NI Modbus.llb/MB Decode Data.vi"/>
 			<Item Name="MB Modbus Command to Data Unit.vi" Type="VI" URL="../SubVIs/Watlow Modbus/NI Modbus.llb/MB Modbus Command to Data Unit.vi"/>
@@ -3766,7 +3766,7 @@ DirectoryIndex index.htm
 			<Item Name="App Global.vi" Type="VI" URL="../SubVIs/App Global.vi"/>
 			<Item Name="Controller Config.ctl" Type="VI" URL="../Controls/Controller Config.ctl"/>
 			<Item Name="Get Time and Date.vi" Type="VI" URL="../SubVIs/Get Time and Date.vi"/>
-			<Item Name="Email Mode.ctl" Type="VI" URL="../../../reliability-temp-logger/Controls/Email Mode.ctl"/>
+			<Item Name="Email Mode.ctl" Type="VI" URL="../Controls/Email Mode.ctl"/>
 			<Item Name="ADC Checker.vi" Type="VI" URL="../SubVIs/ADC Checker.vi"/>
 			<Item Name="Data Logger Mode.ctl" Type="VI" URL="../SubVIs/Data Logger/Data Logger Mode.ctl"/>
 			<Item Name="Write Headers.vi" Type="VI" URL="../SubVIs/Data Logger/Write Headers.vi"/>
@@ -3775,7 +3775,7 @@ DirectoryIndex index.htm
 			<Item Name="Data Loop.vi" Type="VI" URL="../SubVIs/Data Loop.vi"/>
 			<Item Name="Write PWM Outputs.vi" Type="VI" URL="../SubVIs/Write PWM Outputs.vi"/>
 			<Item Name="Enable Timers.vi" Type="VI" URL="../SubVIs/Enable Timers.vi"/>
-			<Item Name="Email Global.vi" Type="VI" URL="../../../reliability-temp-logger/SubVIs/Email Global.vi"/>
+			<Item Name="Email Global.vi" Type="VI" URL="../SubVIs/Email Global.vi"/>
 			<Item Name="RPi HMI Global.vi" Type="VI" URL="../SubVIs/RPi HMI Global.vi"/>
 			<Item Name="Write FPGA Outputs.vi" Type="VI" URL="../SubVIs/Write FPGA Outputs.vi"/>
 			<Item Name="App Global Mode.ctl" Type="VI" URL="../Controls/App Global Mode.ctl"/>
@@ -3794,7 +3794,7 @@ DirectoryIndex index.htm
 			<Item Name="Speed Config Global.vi" Type="VI" URL="../SubVIs/Speed Config Global.vi"/>
 			<Item Name="CPU Log.vi" Type="VI" URL="../SubVIs/CPU Log.vi"/>
 			<Item Name="App Loop.vi" Type="VI" URL="../SubVIs/App Loop.vi"/>
-			<Item Name="Email Loop.vi" Type="VI" URL="../../../reliability-temp-logger/SubVIs/Email Loop.vi"/>
+			<Item Name="Email Loop.vi" Type="VI" URL="../SubVIs/Email Loop.vi"/>
 			<Item Name="Hella Turbine Seed 2 Key.vi" Type="VI" URL="../SubVIs/Hella Turbine Seed 2 Key.vi"/>
 			<Item Name="Hella CAN read.vi" Type="VI" URL="../SubVIs/Hella CAN read.vi"/>
 			<Item Name="Hella CAN Turbine.vi" Type="VI" URL="../SubVIs/Hella CAN Turbine.vi"/>
@@ -7429,10 +7429,10 @@ DirectoryIndex index.htm
 			<Item Name="DMA Error Global.vi" Type="VI" URL="../SubVIs/DMA Error Global.vi"/>
 			<Item Name="DMA Pause Global.vi" Type="VI" URL="../SubVIs/DMA Pause Global.vi"/>
 			<Item Name="E2E_EB_CalculateCrc (Hella).vi" Type="VI" URL="../SubVIs/E2E_EB_CalculateCrc (Hella).vi"/>
-			<Item Name="Email Global.vi" Type="VI" URL="../../../reliability-temp-logger/SubVIs/Email Global.vi"/>
-			<Item Name="Email Loop.vi" Type="VI" URL="../../../reliability-temp-logger/SubVIs/Email Loop.vi"/>
-			<Item Name="Email Mode.ctl" Type="VI" URL="../../../reliability-temp-logger/Controls/Email Mode.ctl"/>
-			<Item Name="Email to Handler.vi" Type="VI" URL="../../../reliability-temp-logger/SubVIs/Email to Handler.vi"/>
+			<Item Name="Email Global.vi" Type="VI" URL="../SubVIs/Email Global.vi"/>
+			<Item Name="Email Loop.vi" Type="VI" URL="../SubVIs/Email Loop.vi"/>
+			<Item Name="Email Mode.ctl" Type="VI" URL="../Controls/Email Mode.ctl"/>
+			<Item Name="Email to Handler.vi" Type="VI" URL="../SubVIs/Email to Handler.vi"/>
 			<Item Name="Enable Timers.vi" Type="VI" URL="../SubVIs/Enable Timers.vi"/>
 			<Item Name="Error Global.vi" Type="VI" URL="../SubVIs/Error Global.vi"/>
 			<Item Name="Error Loop.vi" Type="VI" URL="../SubVIs/Error Loop.vi"/>
@@ -7553,7 +7553,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B1390B63-E612-4800-87A9-EF566B2D9DCA}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">27</Property>
+				<Property Name="Bld_version.build" Type="Int">28</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
