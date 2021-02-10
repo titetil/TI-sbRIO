@@ -1,8 +1,8 @@
 [My Computer]
-My Computer = "169.254.148.13"
+My Computer = "10.30.189.31"
 
 [RT Single-Board RIO (9626)]
-RT Single-Board RIO (9626) = "10.30.189.152"
+RT Single-Board RIO (9626) = "10.30.189.158"
 
 [RT Single-Board RIO (9627)]
 RT Single-Board RIO (9627) = "10.30.189.122"
